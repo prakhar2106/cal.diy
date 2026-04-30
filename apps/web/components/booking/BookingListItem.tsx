@@ -67,6 +67,15 @@ type TeamEventBooking = Omit<ParsedBooking, "eventType"> & {
   eventType: TeamEvent;
 };
 
+                                                                                 
+function CroTestButton() {                                   
+    return (                                                                      
+      <button onClick={() => console.log("test")}>
+        <svg width="16" height="16" />                                            
+      </button>                                                
+    );
+}
+
 function buildParsedBooking(booking: BookingItemProps) {
   // The way we fetch bookings there could be eventType object even without an eventType, but id confirms its existence
   const bookingEventType = booking.eventType.id

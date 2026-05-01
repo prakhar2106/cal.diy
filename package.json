@@ -228,5 +228,8 @@
   "syncpack": {
     "filter": "^(?!@calcom).*",
     "semverRange": ""
+  },
+  "dependencies": {
+    "posthog-js": "^1.180.0"
   }
 }

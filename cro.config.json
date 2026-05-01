@@ -1,0 +1,11 @@
+{
+  "app_id": "01d60639152027efb39d025a37f635e7",
+  "repo": "prakhar2106/cal.diy",
+  "posthog_host": null,
+  "posthog_key": null,
+  "capture": {
+    "auto": true,
+    "click": true,
+    "route": true
+  }
+}

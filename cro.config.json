@@ -1,0 +1,10 @@
+{
+  "app_id": "01d60639152027efb39d025a37f635e7",
+  "repo": "prakhar2106/cal.diy",
+  "sdk": "@cro/web-sdk",
+  "capture": {
+    "auto": true,
+    "click": true,
+    "route": true
+  }
+}
